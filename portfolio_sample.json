@@ -1,0 +1,32 @@
+{
+  "user": "John Smith",
+  "total_value": 150000,
+  "holdings": [
+    {
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "shares": 50,
+      "purchase_price": 150.00,
+      "current_price": 175.50,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft Corp.",
+      "shares": 30,
+      "purchase_price": 330.00,
+      "current_price": 420.00,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "shares": 100,
+      "purchase_price": 140.00,
+      "current_price": 155.00,
+      "sector": "Financial"
+    }
+  ],
+  "risk_tolerance": "moderate",
+  "investment_goals": "long-term growth with moderate risk"
+}
