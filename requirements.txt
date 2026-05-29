@@ -5,3 +5,5 @@ tavily-python
 streamlit
 python-dotenv
 fpdf
+fastapi
+uvicorn[standard]

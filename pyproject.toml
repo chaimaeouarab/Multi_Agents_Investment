@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vestige-ai"
+version = "1.0.0"
+description = "Portfolio Intelligence powered by Multi-Agent AI"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+requires-python = ">=3.8"
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "tavily-python",
+    "streamlit",
+    "python-dotenv",
+    "fpdf",
+    "fastapi",
+    "uvicorn",
+]
+
+[tool.vercel]
+entrypoint = "api/index.py"
+maxDuration = 60

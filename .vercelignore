@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+env/
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project files
+.git
+.gitignore
+README.md
+*.md
+presentation.html
+
+# Node modules (if any)
+node_modules/
