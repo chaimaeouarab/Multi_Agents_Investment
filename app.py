@@ -1,3 +1,7 @@
+#cd portfolio_agent_project
+#venv\Scripts\activate
+#pip install -r requirements.txt
+#streamlit run app.py
 import streamlit as st
 import os
 from dotenv import load_dotenv
