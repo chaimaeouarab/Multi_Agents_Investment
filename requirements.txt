@@ -7,3 +7,5 @@ python-dotenv
 fpdf
 fastapi
 uvicorn[standard]
+//python -m streamlit run app.py
+//pip install -r requirements.txt
